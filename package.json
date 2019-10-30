@@ -1,6 +1,6 @@
 {
     "name": "find-pkg-cache",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "A cache directory automatically created specifically for your package to use.",
     "repository": "https://github.com/Richienb/find-pkg-cache.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
