@@ -1,14 +1,13 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * The directory to use.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const cacheDir = require("find-pkg-cache");
+ *
+ * console.log(cacheDir);
+ * //=> '/home/richiebendall/find-pkg-cache/node_modules/.cache/find-pkg-cache'
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare const pkgCache: string;
 
-export = theModule;
+export = pkgCache;

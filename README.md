@@ -1,41 +1,28 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# Find package cache [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/find-pkg-cache/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/find-pkg-cache)
 
-My awesome module.
+A cache directory automatically created specifically for your package to use.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/find-pkg-cache.png)](https://npmjs.com/package/find-pkg-cache)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install find-pkg-cache
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const cacheDir = require("find-pkg-cache");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+console.log(cacheDir);
+//=> '/home/richiebendall/find-pkg-cache/node_modules/.cache/find-pkg-cache'
 ```
 
 ## API
 
-### theModule(input, options?)
-
-#### input
+### pkgCache
 
 Type: `string`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The directory to use.
